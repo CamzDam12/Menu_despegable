@@ -1,0 +1,59 @@
+
+.titulo{
+   font-family: 'Times New Roman', Times, serif;
+
+   color: rgb(129, 8, 129);
+   text-align: left;
+   background-color: burlywood;
+   height: 50px;
+}
+.text{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   background-color: rgb(112, 151, 183);
+   height: 10px;
+}
+.header {
+   margin: auto;
+   width: 50px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+body{
+   background-color: rgb(181, 173, 173);
+}
+ul, ol {
+list-style: none;
+}
+.nav li a{
+background-color: cadetblue;
+color:violet;
+text-decoration: none;
+padding: 10px 15px;
+display: block;
+}
+.nav li a:hover{
+   background-color: aqua;
+}
+
+.nav li ul li ul{
+   right: -140px;
+   top:0px;
+}
+
+.nav > li
+{
+   float:left;
+}
+
+.nav li ul{
+   display:none;
+   position:absolute;
+   min-width:140px;
+}
+
+.nav li:hover > ul {
+display:block;
+}
+
+.nav li ul li{
+   position:relative;
+}
